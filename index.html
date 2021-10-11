@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="./main.js"></script>
+    
+</head>
+<body>
+    <main class="display">
+        <h1>Weather App</h1>
+        
+        <form id="enter-city">
+        <label for="enter-location">Pick a Location</label>
+        <input id="enter-location" name="location" type="text" />
+        <input type="submit" value="Get-weather" />
+        </form>
+
+
+        <section>
+            <h2></h2>
+            <p id="areaBold"><span class="bold"></span><span id="area"></span></p>
+            <p id="regionBold"><span class="bold"></span><span id="region"></span></p>
+            <p id="countryBold"><span class="bold"></span><span id="country"></span></p>
+            <p id="currentlyBold"><span class="bold"></span><span id="currently"></span></p>
+        </section>
+
+        <section>
+            <h2 class="Today"></h2>
+            <p id="aveTemBold"><span class="bold"></span><span id="average"></span></p>
+            <p id="maxTemBold"><span class="bold"></span><span id="maxTemperature"></span></p>
+            <p id="minTemBold"><span class="bold"></span><span id="minTemperature"></span></p>
+        </section>
+
+        <section>
+            <h2 class="Tomorrow"></h2>
+            <p id="aveTomorrowBold"><span class="bold"></span><span id="average-tomorrow"></span></p>
+            <p id="maxTomorrowBold"><span class="bold"></span><span id="max-tomorrow"></span></p>
+            <p id="minTomorrowBold"><span class="bold"></span><span id="min-tomorrow"></span></p>
+        </section>
+
+        <section>
+            <h2 class="Day-After-Tomorrow"></h2>
+            <p id="aveDayAfterBold"><span class="bold"></span><span id="average-DayAfter"></span></p>
+            <p id="maxDayAfterBold"><span class="bold"></span><span id="max-DayAfter"></span></p>
+            <p id="minDayAfterBold"><span class="bold"></span><span id="min-DayAfter"></span></p>
+        </section>
+
+
+        <aside class="history">
+            <p>Previous Searches</p>
+        </aside>
+
+
+    </main>
+</body>
+</html>

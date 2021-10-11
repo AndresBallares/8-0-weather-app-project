@@ -49,6 +49,23 @@ form. addEventListener('submit', (event) => {
             minTemBold.textContent = "Min Temperature: ";
             minDisValue.textContent = `${MinTempValue}°F`;
 
+            const averageTomorrow = weather.weather[1].avgtempF;
+            const MaxTomorrow = weather.weather[1].maxtempF;
+            const MinTomorrow = weather.weather[1].mintempF;
+
+            const tomorrow = document.querySelector(".Tomorrow");
+            tomorrow.textContent = "Tomorrow";
+
+            const aveTomorrow = document.querySelector("#aveTomorrowBold .bold");
+            const aveTomorrowDisValue = document.querySelector("#average-tomorrow");
+            aveTomorrow.textContent = "Average Temperature: ";
+            aveTomorrowDisValue.textContent = `${averageTomorrow}°F`;
+
+            const maxTomorrowBold = document.querySelector("#maxTomorrowBold .bold");
+            const maxTomDisValue = document.querySelector("#max-tomorrow");
+            maxTomorrowBold.textContent = "Max Temperature: ";
+            maxTomDisValue.textContent = `${MaxTomorrow}°F`;
+
         
         
 

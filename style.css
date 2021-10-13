@@ -1,4 +1,4 @@
-/* .display {
+.display {
     border: 3px solid black;
     display: grid;
     grid-template-columns: repeat (2, 1fr);
@@ -40,7 +40,6 @@
 }
 
 .detail {
-  
     background:lightgreen;
     display: flex;
     width: 550px;
@@ -52,7 +51,7 @@
     margin-right: 0%;
     margin-left: 190px;
     padding-right: 50px;
-}  */
+} 
 
 
 .bold {
